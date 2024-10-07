@@ -134,6 +134,17 @@ class _MyformState extends State<Myform> {
                 textAlign: TextAlign.center,
               ),
             ),
+             Container(
+              height: 40,
+              width: 400,
+              color: Colors.white,
+              alignment: Alignment.bottomCenter,
+              margin: EdgeInsets.only(top: 20, bottom: 20,left:20,),
+              child: Text(
+                "Thanks for visiting",
+                textAlign: TextAlign.center,
+              ),
+            ),
           ],
         ),
       ),
