@@ -10,6 +10,7 @@ class MyformOne extends StatefulWidget {
 class _MyformState extends State<MyformOne> {
   TextEditingController textEditingController = TextEditingController();
   int first = 0;
+  List<String> results=[];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,7 +36,7 @@ class _MyformState extends State<MyformOne> {
                   setState(() {
                     for (int i = 1; i < 10; i++) {
                       int result = first * i;
-                      print("$first* $i:$result");
+                      results.add("$first*$i=$result");
                     }
                   });
                 });

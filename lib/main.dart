@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:image_application/form.dart';
 import 'package:image_application/my_form1.dart';
 void main() {
   runApp(const MyApp());
